@@ -11,48 +11,68 @@
   </head>
 
   <body>
-    <header>
-      <div id="logo_menu">
-        <img src="images/logo/Reservia@3x.png" alt="logo reservia" />
-        <nav id="menu">
+    <div id="taille_global">
+      <header>
+        <div id="logo_menu">
+          <img
+            src="images/logo/Reservia@3x.png"
+            alt="logo reservia"
+            id="logo"
+          />
+          <nav id="menu">
+            <ul>
+              <li><a href="#hebergement">Hébergements</a></li>
+              <li><a href="#activite">Activités</a></li>
+              <li class="gras"><a href="#">S'inscrire</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div id="titre">
+          <h1 class="gras">
+            Trouvez votre hébergment pour des vacances de rêve
+          </h1>
+          <p>En plein centre ville ou en pleine nature</p>
+        </div>
+
+        <div id="barre_de_recherche">
+          <div class="fas fa-map-marker-alt" id="loca"></div>
+          <form method="POST" action="traitement.php">
+            <p>
+              <input
+                type="search"
+                name="rechercher"
+                id="rechercher"
+                placeholder="Ex : Marseille, France"
+              />
+              <button id="bouton_rechercher">Rechercher</button>
+            </p>
+          </form>
+        </div>
+
+        <div id="filtre">
+          <h2>Filtres</h2>
           <ul>
-            <li><a href="#hebergement">Hébergements</a></li>
-            <li><a href="#activite">Activités</a></li>
-            <li><a href="#">S'inscrire</a></li>
+            <li id="eco">
+              <i class="fas fa-money-bill-wave"></i><a href="#">Économique</a>
+            </li>
+            <li id="famille">
+              <i class="fas fa-child"></i><a href="#">Familial</a>
+            </li>
+            <li id="romantique">
+              <i class="fas fa-heart"></i><a href="#">Romantique</a>
+            </li>
+            <li id="animaux">
+              <i class="fas fa-dog"></i><a href="#">Animaux autorisés</a>
+            </li>
           </ul>
-        </nav>
-      </div>
+        </div>
 
-      <div id="titre">
-        <h1>Trouvez votre hébergment pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-      </div>
-
-      <div id="barre_de_recherche">
-        <i class="fas fa-map-marker-alt"></i>
-        <form method="POST" action="traitement.php">
-          <!--page php n'existe pas-->
-          <p>
-            <input type="search" name="rechercher" id="rechercher" />
-            <label for="rechercher">Rechercher</label>
-          </p>
-        </form>
-      </div>
-
-      <div id="filtre">
-        <h2>Filtres</h2>
-        <ul>
-          <li><i class="fas fa-money-bill-wave"></i>Économique</li>
-          <li><i class="fas fa-child"></i>Familial</li>
-          <li><i class="fas fa-heart"></i>Romantique</li>
-          <li><i class="fas fa-dog"></i>Animaux autorisés</li>
-        </ul>
-      </div>
-
-      <div id="information">
-        <i class="fas fa-info"></i>
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
-      </div>
-    </header>
+        <div id="information">
+          <i class="fas fa-info"></i>
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+      </header>
+    </div>
   </body>
 </html>
