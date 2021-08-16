@@ -340,7 +340,7 @@ aside img /**bordure des images**/ {
   margin-left: -10px;
 }
 
-#img_populaire /**image rogner**/ {
+.img_populaire /**image rogner**/ {
   width: 130px;
   height: 150px;
   overflow: hidden;
@@ -363,16 +363,16 @@ aside figcaption /**travail sur la description de l'image**/ {
   line-height: 1.6em;
 }
 
-#bloc_pop /**positionnement des blocs**/ {
+.bloc_pop /**positionnement des blocs**/ {
   margin-left: 30px;
   margin-top: 5px;
 }
 
-#text_populaire .gras /**taille du nom de l'image**/ {
+.text_populaire .gras /**taille du nom de l'image**/ {
   font-size: 1.1em;
 }
 
-#etoile_populaire /**placement des etoiles**/ {
+.etoile_populaire /**placement des etoiles**/ {
   margin-top: 30px;
 }
 
