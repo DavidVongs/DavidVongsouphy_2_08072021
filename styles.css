@@ -5,11 +5,16 @@
   src: url("Raleway-Medium.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Raleway Gras";
+  src: url("Raleway-Bold.ttf") format("truetype");
+}
+
 body {
   font-family: Raleway;
 }
 #taille_global {
-  width: 1300px;
+  width: 1400px;
   margin: auto;
 }
 
@@ -47,13 +52,16 @@ header {
   color: rgb(0, 101, 252);
 }
 
+/**Header Barre de recherche**/
+
 #titre {
   margin-top: 35px;
 }
 
 h1 {
-  font-size: 1.3em;
+  font-size: 1.5em;
   margin-bottom: -9px;
+  font-family: Raleway Gras;
 }
 
 #barre_de_recherche {
@@ -87,6 +95,7 @@ h1 {
   border-top-right-radius: 20px 20px;
   border-bottom-right-radius: 20px 20px;
 }
+/**Header FILTRES**/
 
 #filtre {
   display: flex;
@@ -95,7 +104,7 @@ h1 {
 }
 
 #filtre h2 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-right: -15px;
 }
 
@@ -103,14 +112,14 @@ h1 {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-  width: 800px;
+  width: 900px;
   height: 50px;
   margin-top: 3px;
 }
 
 #filtre li /**bordure des filtre**/ {
-  border: solid rgb(217, 217, 217) 2px;
-  font-size: 1.1em;
+  border: solid rgb(217, 217, 217) 2.5px;
+  font-size: 1.2em;
   height: 30px;
   padding-top: 10px;
   border-radius: 40px;
@@ -118,7 +127,7 @@ h1 {
 
 .placementF /**placement icone et texte filtre**/ {
   display: flex;
-  margin-top: -12px;
+  margin-top: -13px;
   margin-left: -10px;
 }
 .contouricone /**contour des icones FILTRE**/ {
@@ -133,12 +142,12 @@ h1 {
 }
 
 #iconeEco {
-  margin-top: 15px;
+  margin-top: 13px;
   margin-left: 10px;
 }
 
 #iconeFamille {
-  margin-top: 15px;
+  margin-top: 13px;
   margin-left: 15px;
 }
 
@@ -168,7 +177,7 @@ h1 {
 }
 
 #famille {
-  width: 130px;
+  width: 140px;
 }
 
 #animaux {
@@ -200,3 +209,173 @@ h1 {
 }
 
 /**Article**/
+
+#hebergement a {
+  text-decoration: none;
+}
+
+#hebergement h2 {
+  font-family: "Raleway Gras";
+}
+
+#hebergement /**background**/ {
+  position: relative;
+  background-color: rgb(242, 242, 243);
+  width: 890px;
+  height: 640px;
+  border-radius: 20px;
+}
+
+#bloc_hebergement /**bloc hebergement marseille**/ {
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+figure /**bloc image+commentaire**/ {
+  margin-left: -5px;
+}
+
+#img_heberg /**placement des img sur 2 lignes**/ {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin-top: -15px;
+}
+
+article img /**dimensionnement de l'image**/ {
+  width: 240px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.img_haut /**placement de l'image dans la case**/ {
+  margin-top: -10px;
+}
+
+#hotel_de_la_mer {
+  margin-top: -50px;
+}
+
+#chez_amina {
+  margin-top: -120px;
+}
+
+.img_logement /**image rogner**/ {
+  width: 240px;
+  height: 120px;
+  overflow: hidden;
+  border: white solid 6px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#hebergement figcaption /**gestion description de l'image**/ {
+  height: 80px;
+  margin-top: -10px;
+  padding-top: 12px;
+  padding-left: 20px;
+  font-size: 1em;
+  line-height: 1.5em;
+  background-color: white;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+article i {
+  font-size: 0.8em;
+}
+
+.blue_stars {
+  color: rgb(0, 101, 252);
+}
+
+.grey_stars {
+  color: rgb(217, 217, 217);
+}
+
+/**Aside les POPULAIRES**/
+
+#herbegement_et_populaire {
+  display: flex;
+}
+
+#populaire /**background**/ {
+  background-color: rgb(242, 242, 243);
+  border-radius: 20px;
+  margin-left: 50px;
+  width: 410px;
+}
+
+#titre_populaire {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#titre_populaire i /**positionnement de l'icone**/ {
+  margin-left: 25px;
+  margin-top: 27px;
+  font-size: 1.5em;
+}
+
+aside img /**bordure des images**/ {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#img_soleil {
+  width: 220px;
+  margin-left: -60px;
+}
+
+#img_coeur {
+  width: 200px;
+  margin-left: -30px;
+}
+
+#img_bleu {
+  width: 150px;
+  margin-top: -50px;
+  margin-left: -10px;
+}
+
+#img_populaire /**image rogner**/ {
+  width: 130px;
+  height: 150px;
+  overflow: hidden;
+  border: white solid 6px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+aside figure {
+  display: flex;
+}
+
+aside figcaption /**travail sur la description de l'image**/ {
+  width: 210px;
+  background-color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-top: 20px;
+  padding-left: 15px;
+  line-height: 1.6em;
+}
+
+#bloc_pop /**positionnement des blocs**/ {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+#text_populaire .gras /**taille du nom de l'image**/ {
+  font-size: 1.1em;
+}
+
+#etoile_populaire /**placement des etoiles**/ {
+  margin-top: 30px;
+}
+
+aside a {
+  text-decoration: none;
+}
