@@ -188,7 +188,7 @@ h1 {
   display: flex;
   align-items: center;
   width: 480px;
-  margin-top: -15px;
+  margin-top: -5px;
 }
 
 #info /**contour sphérique**/ {
@@ -297,14 +297,18 @@ article i {
 /**Aside les POPULAIRES**/
 
 #herbegement_et_populaire {
+  margin-top: 30px;
   display: flex;
 }
 
 #populaire /**background**/ {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: rgb(242, 242, 243);
   border-radius: 20px;
-  margin-left: 50px;
-  width: 410px;
+  margin-left: 40px;
+  width: 430px;
 }
 
 #titre_populaire {
@@ -316,7 +320,7 @@ article i {
 #titre_populaire i /**positionnement de l'icone**/ {
   margin-left: 25px;
   margin-top: 27px;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 aside img /**bordure des images**/ {
@@ -341,8 +345,8 @@ aside img /**bordure des images**/ {
 }
 
 .img_populaire /**image rogner**/ {
-  width: 130px;
-  height: 150px;
+  width: 160px;
+  height: 148px;
   overflow: hidden;
   border: white solid 6px;
   border-top-left-radius: 15px;
@@ -354,7 +358,7 @@ aside figure {
 }
 
 aside figcaption /**travail sur la description de l'image**/ {
-  width: 210px;
+  width: 250px;
   background-color: white;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -366,6 +370,7 @@ aside figcaption /**travail sur la description de l'image**/ {
 .bloc_pop /**positionnement des blocs**/ {
   margin-left: 30px;
   margin-top: 5px;
+  height: 160px;
 }
 
 .text_populaire .gras /**taille du nom de l'image**/ {
@@ -373,7 +378,7 @@ aside figcaption /**travail sur la description de l'image**/ {
 }
 
 .etoile_populaire /**placement des etoiles**/ {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 aside a {
