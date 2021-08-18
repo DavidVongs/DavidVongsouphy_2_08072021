@@ -600,3 +600,38 @@ aside a {
 #activite {
   margin-top: 60px;
 }
+
+/**FOOTER**/
+
+footer {
+  position: relative;
+  width: 1450px;
+  height: 230px;
+  margin-left: -40px;
+  margin-top: 60px;
+  background-color: rgb(242, 242, 243);
+}
+
+footer > div {
+  position: absolute;
+  width: 1100px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin-left: -40px;
+  line-height: 2em;
+  font-size: 1.1em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer h2 {
+  font-size: 1.3em;
+}
