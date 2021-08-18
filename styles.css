@@ -22,6 +22,10 @@ body {
   font-weight: bold;
 }
 
+a:visited {
+  color: black;
+}
+
 /**Header**/
 
 header {
@@ -232,7 +236,7 @@ h1 {
   margin-top: 20px;
 }
 
-figure /**bloc image+commentaire**/ {
+#hebergement figure /**bloc image+commentaire**/ {
   margin-left: -5px;
 }
 
@@ -243,7 +247,7 @@ figure /**bloc image+commentaire**/ {
   margin-top: -15px;
 }
 
-article img /**dimensionnement de l'image**/ {
+#hebergement img /**dimensionnement de l'image**/ {
   width: 240px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -383,4 +387,216 @@ aside figcaption /**travail sur la description de l'image**/ {
 
 aside a {
   text-decoration: none;
+}
+
+/**Article ACTIVITES**/
+
+#activite a {
+  text-decoration: none;
+}
+
+/**ACTIVITE, Vieux port, Pomegues, Frioul**/
+
+#bloc_activite1 {
+  width: 700px;
+  height: 503px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#vieux_port > div /*dimensionnement de l'image*/ {
+  width: 320px;
+  height: 410px;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#img_vieuxport {
+  margin-left: -180px;
+  margin-top: -20px;
+}
+
+#vieux_port > figcaption {
+  font-size: 1.1em;
+  height: 60px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+#vieux_port {
+  margin-left: 0px;
+  box-shadow: 5px 10px 10px rgb(245, 245, 246);
+  border-radius: 20px;
+}
+
+#pomegues > div /*dimensionnement de l'image*/ {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#img_pomegues {
+  margin-top: -150px;
+}
+
+#pomegues > figcaption {
+  font-size: 1.1em;
+  height: 60px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+#pomegues {
+  box-shadow: 5px 10px 10px rgb(245, 245, 246);
+  border-radius: 20px;
+}
+
+#frioul > div /*dimensionnement de l'image*/ {
+  width: 300px;
+  height: 105px;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#img_frioul {
+  width: 400px;
+  margin-top: -60px;
+  margin-left: -100px;
+}
+
+#frioul > figcaption {
+  font-size: 1.1em;
+  height: 60px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+#frioul {
+  margin-top: 45px;
+  box-shadow: 5px 10px 10px rgb(245, 245, 246);
+  border-radius: 20px;
+}
+
+#pomFrioul /*margin entre les petites image et la grande*/ {
+  margin-left: -45px;
+}
+
+/**ACTIVITE, Calanques, Longchamp, Garde**/
+
+#bloc_activite2 {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#calanques > div /*dimensionnement de l'image*/ {
+  width: 320px;
+  height: 410px;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#img_calanques {
+  width: 800px;
+  margin-left: -250px;
+  margin-top: -50px;
+}
+
+#calanques > figcaption {
+  font-size: 1.1em;
+  height: 60px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+#calanques {
+  margin-left: 0px;
+  box-shadow: 5px 10px 10px rgb(245, 245, 246);
+  border-radius: 20px;
+}
+
+#garde > div /*dimensionnement de l'image*/ {
+  width: 300px;
+  height: 165px;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#img_garde {
+  margin-left: -150px;
+  margin-top: -30px;
+}
+
+#garde > figcaption {
+  font-size: 1.1em;
+  height: 60px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+#garde {
+  box-shadow: 5px 10px 10px rgb(245, 245, 246);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+#longchamp > div /*dimensionnement de l'image*/ {
+  width: 300px;
+  height: 145px;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#img_longchamp {
+  width: 300px;
+  margin-top: -30px;
+}
+
+#longchamp > figcaption {
+  font-size: 1.1em;
+  height: 60px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+#longchamp {
+  box-shadow: 5px 10px 10px rgb(245, 245, 246);
+  border-radius: 20px;
+  margin-top: 35px;
+}
+
+#bloc_activite2 > #longchamp {
+  order: 2;
+}
+
+#bloc_activite2 > #garde {
+  order: 3;
+}
+
+#gardeLomp {
+  margin-left: -45px;
+}
+
+#bloc_activite_total {
+  display: flex;
+}
+
+#activite {
+  margin-top: 60px;
 }
