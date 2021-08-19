@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1024px)"
+      href="stylesMobiles.css"
+    />
     <script
       src="https://kit.fontawesome.com/9e58c4fc28.js"
       crossorigin="anonymous"
@@ -23,11 +28,9 @@
             id="logo"
           />
           <nav id="menu">
-            <ul>
-              <li><a href="#hebergement">Hébergements</a></li>
-              <li><a href="#activite">Activités</a></li>
-              <li class="gras"><a href="#">S'inscrire</a></li>
-            </ul>
+            <a href="#hebergement">Hébergements</a>
+            <a href="#activite"><span id="lien2">Activités</span></a>
+            <a href="#">S'inscrire</a>
           </nav>
         </div>
 
@@ -49,6 +52,9 @@
                 placeholder="  Ex : Marseille, France"
               />
               <button id="bouton_rechercher">Rechercher</button>
+              <button id="bouton_rechercher2">
+                <i class="fas fa-search"></i>
+              </button>
             </p>
           </form>
         </div>
