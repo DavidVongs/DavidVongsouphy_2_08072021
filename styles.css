@@ -32,7 +32,7 @@ header {
   position: relative;
 }
 
-#logo_menu {
+#logo_et_menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,7 +81,7 @@ h1 {
 }
 
 #rechercher {
-  border-color: rgb(242, 242, 243);
+  border-color: #f2f2f2;
   font-size: 1.2em;
   width: 225px;
   height: 55px;
