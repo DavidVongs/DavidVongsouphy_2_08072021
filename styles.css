@@ -248,7 +248,7 @@ h1 {
 #img_heberg /**placement des img sur 2 lignes**/ {
   display: flex;
   flex-wrap: wrap;
-  width: 1000px;
+  width: 865px;
   margin-top: -15px;
 }
 

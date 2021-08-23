@@ -1,4 +1,6 @@
 @media all and (max-width: 900px) {
+  /*HEADER*/
+
   header {
     width: 365px;
     margin-left: 50px;
@@ -12,7 +14,7 @@
     font-size: 1.2em;
   }
 
-  .Heb {
+  .Heb /*positionnement du lien Hebergement*/ {
     position: absolute;
     margin-top: 70px;
     margin-left: -140px;
@@ -22,7 +24,7 @@
     padding-bottom: 10px;
   }
 
-  #lien2 {
+  #lien2 /*positionnement du lien Activite*/ {
     position: absolute;
     margin-top: 70px;
     margin-left: 75px;
@@ -32,7 +34,7 @@
     padding-bottom: 10px;
   }
 
-  #Ins {
+  #Ins /*positionnement du lien s'inscrire*/ {
     position: absolute;
     margin-left: 100px;
   }
@@ -48,11 +50,11 @@
     width: 250px;
   }
 
-  #bouton_rechercher {
+  #bouton_rechercher/*bouton version desktop*/ {
     display: none;
   }
 
-  #bouton_rechercher2 {
+  #bouton_rechercher2 /*travail sur l'icone rechercher*/ {
     font-size: 1.1em;
     background-color: #0065fc;
     color: white;
@@ -93,5 +95,148 @@
 
   #info {
     width: 25px;
+  }
+
+  /*ARTICLE ET ASIDE HEBERGEMENT*/
+
+  #herbegement_et_populaire {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #hebergement /*background de la partie hebergement*/ {
+    width: 430px;
+    height: 1500px;
+    margin-left: 39px;
+    background-color: white;
+    margin-top: 10px;
+  }
+
+  #img_heberg /*placement des images dans le bloc*/ {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .img_logement /*image rogner*/ {
+    width: 355px;
+  }
+
+  #hebergement img {
+    width: 380px;
+  }
+
+  .img_haut /*placement des images dans la case*/ {
+    margin-top: -80px;
+  }
+
+  #hotel_de_la_mer {
+    margin-top: -120px;
+  }
+
+  #le_panier {
+    margin-top: -50px;
+  }
+
+  #chez_amina {
+    margin-top: -230px;
+  }
+
+  #hebergement figcaption {
+    width: 347px;
+  }
+
+  #hebergement figure {
+    margin-top: 0px;
+    width: 365px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #f2f2f2;
+  }
+
+  #hebergement p {
+    font-size: 1.2em;
+  }
+
+  #populaire {
+    border-radius: 0px;
+  }
+
+  /*ACTIVITE*/
+
+  #bloc_activite1 {
+    width: 355px;
+    height: 800px;
+  }
+
+  #bloc_activite2 {
+    width: 355px;
+    height: 800px;
+    margin-top: -15px;
+  }
+
+  #bloc_activite_total {
+    flex-direction: column;
+  }
+
+  #activite /*placement de la partie activite*/ {
+    margin-left: 75px;
+  }
+
+  #activite figure {
+    width: 355px;
+  }
+
+  #vieux_port > div {
+    height: 160px;
+    width: 355px;
+  }
+
+  #img_vieuxport {
+    width: 400px;
+    margin-left: 0px;
+  }
+
+  #pomegues > div {
+    height: 160px;
+    width: 355px;
+  }
+
+  #frioul > div {
+    height: 160px;
+    width: 355px;
+  }
+
+  #img_frioul {
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+
+  #calanques > div {
+    height: 160px;
+    width: 355px;
+  }
+
+  #img_calanques {
+    width: 380px;
+    margin-left: 0px;
+    margin-top: -20px;
+  }
+
+  #calanques {
+    margin-left: -5px;
+  }
+
+  #garde > div {
+    height: 160px;
+    width: 355px;
+  }
+
+  #longchamp > div {
+    height: 160px;
+    width: 355px;
+  }
+
+  #img_longchamp {
+    width: 380px;
+    margin-left: -20px;
   }
 }
