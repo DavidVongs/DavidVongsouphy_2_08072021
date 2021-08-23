@@ -1,9 +1,12 @@
-@media all and (max-width: 900px) {
+@media all and (max-width: 1024px) {
+  #taille_global {
+    width: 500px;
+  }
+
   /*HEADER*/
 
   header {
     width: 365px;
-    margin-left: 50px;
   }
 
   #menu {
@@ -104,10 +107,13 @@
     flex-direction: column-reverse;
   }
 
+  #populaire {
+    margin-left: 0px;
+  }
+
   #hebergement /*background de la partie hebergement*/ {
     width: 430px;
     height: 1500px;
-    margin-left: 39px;
     background-color: white;
     margin-top: 10px;
   }
@@ -178,7 +184,8 @@
   }
 
   #activite /*placement de la partie activite*/ {
-    margin-left: 75px;
+    margin-left: 35px;
+    margin-top: 70px;
   }
 
   #activite figure {
@@ -238,5 +245,18 @@
   #img_longchamp {
     width: 380px;
     margin-left: -20px;
+  }
+
+  /*FOOTER VERSION MOBILE*/
+
+  footer {
+    width: 400px;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+
+  footer > div {
+    flex-direction: column;
   }
 }

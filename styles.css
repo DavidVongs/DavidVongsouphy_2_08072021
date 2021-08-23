@@ -98,7 +98,7 @@ h1 {
   border-bottom-right-radius: 20px 20px;
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 1024px) {
   #bouton_rechercher2 {
     display: none;
   }
@@ -608,7 +608,7 @@ aside a {
 
 /**FOOTER**/
 
-footer {
+footer /*background*/ {
   position: relative;
   width: 1450px;
   height: 230px;
