@@ -1,4 +1,4 @@
-@media all and (max-device-width: 480px) {
+@media all and (max-width: 1024px) {
   #taille_global {
     width: 400px;
     margin: auto;

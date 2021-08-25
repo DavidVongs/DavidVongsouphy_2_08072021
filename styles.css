@@ -63,7 +63,7 @@ header {
 h1 {
   font-size: 1.5em;
   margin-bottom: -9px;
-  font-family: Raleway Gras;
+  font-family: "Raleway Gras";
 }
 
 #barre_de_recherche {
@@ -98,7 +98,7 @@ h1 {
   border-bottom-right-radius: 20px 20px;
 }
 
-@media all and (min-device-width: 481px) {
+@media all and (min-width: 1024px) {
   #bouton_rechercher2 {
     display: none;
   }
