@@ -6,8 +6,13 @@
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
-      media="screen and (max-width: 1024px)"
+      media="screen and (max-width: 600px)"
       href="stylesMobiles.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 600px) and (max-width: 1024px)"
+      href="stylesTablettes.css"
     />
     <script
       src="https://kit.fontawesome.com/9e58c4fc28.js"
@@ -108,7 +113,7 @@
       <!--ARTICLE Hebergement-->
       <!--ARTICLE Hebergement-->
 
-      <div id="herbegement_et_populaire">
+      <div id="hebergement_et_populaire">
         <article id="hebergement">
           <div id="bloc_hebergement">
             <h2>Hébergements à Marseille</h2>
@@ -251,95 +256,97 @@
             <h2>Les plus populaires</h2>
             <i class="fas fa-chart-line"></i>
           </div>
-          <a href="#">
-            <figure class="bloc_pop">
-              <div class="img_populaire">
-                <img
-                  src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                  alt="Le soleil du matin"
-                  id="img_soleil"
-                />
-              </div>
-              <figcaption>
-                <div class="text_populaire">
-                  <span class="gras">
-                    Hôtel Le soleil du <br />
-                    matin
-                  </span>
-                  <br />
-                  Nuit à partir de <span class="gras">128€</span>
-                  <br />
+          <div id="populaire_3bloc">
+            <a href="#">
+              <figure class="bloc_pop">
+                <div class="img_populaire">
+                  <img
+                    src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                    alt="Le soleil du matin"
+                    id="img_soleil"
+                  />
                 </div>
-                <div class="etoile_populaire">
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                </div>
-              </figcaption>
-            </figure>
-          </a>
+                <figcaption>
+                  <div class="text_populaire">
+                    <span class="gras">
+                      Hôtel Le soleil du <br />
+                      matin
+                    </span>
+                    <br />
+                    Nuit à partir de <span class="gras">128€</span>
+                    <br />
+                  </div>
+                  <div class="etoile_populaire">
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
 
-          <a href="#">
-            <figure class="bloc_pop">
-              <div class="img_populaire">
-                <img
-                  src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                  alt="Au coeur de l'eau"
-                  id="img_coeur"
-                />
-              </div>
-              <figcaption>
-                <div class="text_populaire">
-                  <span class="gras"
-                    >Au coeur de l'eau <br />
-                    Chambres d'hôtes</span
-                  >
-                  <br />
-                  Nuit à partir de <span class="gras">71€</span>
-                  <br />
+            <a href="#">
+              <figure class="bloc_pop">
+                <div class="img_populaire">
+                  <img
+                    src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                    alt="Au coeur de l'eau"
+                    id="img_coeur"
+                  />
                 </div>
-                <div class="etoile_populaire">
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                  <span class="grey_stars"><i class="fas fa-star"></i></span>
-                </div>
-              </figcaption>
-            </figure>
-          </a>
+                <figcaption>
+                  <div class="text_populaire">
+                    <span class="gras"
+                      >Au coeur de l'eau <br />
+                      Chambres d'hôtes</span
+                    >
+                    <br />
+                    Nuit à partir de <span class="gras">71€</span>
+                    <br />
+                  </div>
+                  <div class="etoile_populaire">
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                    <span class="grey_stars"><i class="fas fa-star"></i></span>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
 
-          <a href="#">
-            <figure class="bloc_pop">
-              <div class="img_populaire">
-                <img
-                  src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                  alt="Hôtel Tout bleu et blanc"
-                  id="img_bleu"
-                />
-              </div>
-              <figcaption>
-                <div class="text_populaire">
-                  <span class="gras"
-                    >Hôtel Tout bleu et <br />
-                    blanc
-                  </span>
-                  <br />
-                  Nuit à partir de <span class="gras">68€</span>
-                  <br />
+            <a href="#">
+              <figure class="bloc_pop">
+                <div class="img_populaire">
+                  <img
+                    src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                    alt="Hôtel Tout bleu et blanc"
+                    id="img_bleu"
+                  />
                 </div>
-                <div class="etoile_populaire">
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                  <span class="blue_stars"><i class="fas fa-star"></i></span>
-                  <span class="grey_stars"><i class="fas fa-star"></i></span>
-                </div>
-              </figcaption>
-            </figure>
-          </a>
+                <figcaption>
+                  <div class="text_populaire">
+                    <span class="gras"
+                      >Hôtel Tout bleu et <br />
+                      blanc
+                    </span>
+                    <br />
+                    Nuit à partir de <span class="gras">68€</span>
+                    <br />
+                  </div>
+                  <div class="etoile_populaire">
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                    <span class="blue_stars"><i class="fas fa-star"></i></span>
+                    <span class="grey_stars"><i class="fas fa-star"></i></span>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
         </aside>
       </div>
       <!--Article Activites-->

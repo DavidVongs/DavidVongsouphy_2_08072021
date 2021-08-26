@@ -1,7 +1,7 @@
-@media all and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   #taille_global {
-    width: 400px;
-    margin: auto;
+    width: auto;
+    margin-left: 120px;
   }
 
   /*HEADER*/
@@ -25,10 +25,10 @@
   .Heb /*positionnement du lien Hebergement*/ {
     position: absolute;
     margin-top: 150px;
-    margin-left: -350px;
+    margin-left: -330px;
     border-bottom: #0065fc solid;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
     padding-bottom: 10px;
   }
 
@@ -44,7 +44,7 @@
 
   #Ins /*positionnement du lien s'inscrire*/ {
     position: absolute;
-    margin-left: 420px;
+    margin-left: 390px;
   }
 
   #titre {
@@ -182,7 +182,7 @@
 
   /*ARTICLE ET ASIDE HEBERGEMENT*/
 
-  #herbegement_et_populaire {
+  #hebergement_et_populaire {
     display: flex;
     flex-direction: column-reverse;
   }
@@ -243,9 +243,8 @@
   }
 
   .bloc_pop /**positionnement des blocs**/ {
-    height: 380px;
+    height: 400px;
     margin-left: 50px;
-    margin-top: -100px;
   }
 
   /*HEBERGEMENT*/
@@ -473,7 +472,7 @@
   /*FOOTER VERSION MOBILE*/
 
   footer {
-    width: 950px;
+    width: 980px;
     height: 1100px;
     margin-left: 10px;
     margin-top: 0px;
