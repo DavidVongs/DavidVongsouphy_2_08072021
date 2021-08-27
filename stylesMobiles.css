@@ -1,77 +1,75 @@
 @media screen and (max-width: 600px) {
   #taille_global {
     width: auto;
-    margin-left: 120px;
+    margin-left: 20px;
   }
 
   /*HEADER*/
 
-  header {
-    width: 1100px;
-  }
-
   #logo {
-    width: 300px;
+    margin-left: 15px;
   }
 
   #menu {
-    width: 1000px;
+    width: 400px;
+    margin-left: 100px;
   }
 
   #menu a {
-    font-size: 3.8em;
+    font-size: 1.4em;
   }
 
   .Heb /*positionnement du lien Hebergement*/ {
     position: absolute;
-    margin-top: 150px;
-    margin-left: -330px;
+    margin-top: 80px;
+    margin-left: -250px;
     border-bottom: #0065fc solid;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 45px;
+    padding-right: 45px;
     padding-bottom: 10px;
   }
 
   #lien2 /*positionnement du lien Activite*/ {
     position: absolute;
-    margin-top: 150px;
-    margin-left: 240px;
+    margin-top: 80px;
+    margin-left: 0px;
     border-bottom: #f2f2f2 solid;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 55px;
+    padding-right: 55px;
     padding-bottom: 10px;
   }
 
   #Ins /*positionnement du lien s'inscrire*/ {
     position: absolute;
-    margin-left: 390px;
+    margin-left: 20px;
   }
 
   #titre {
-    width: 900px;
+    width: 450px;
     text-align: center;
     margin-left: -20px;
-    margin-top: 200px;
-    font-size: 2.8em;
+    margin-top: 120px;
+    font-size: 1.3em;
   }
 
   #loca {
-    font-size: 3.4em;
-    margin-left: 50px;
+    font-size: 1.5em;
+    margin-left: 35px;
   }
 
   #barre_de_recherche {
-    height: 160px;
-    width: 975px;
-    border-radius: 40px;
-    margin-top: 80px;
+    height: 80px;
+    width: 435px;
+    border-radius: 30px;
+    margin-top: 50px;
   }
 
   #rechercher {
-    height: 150px;
-    width: 700px;
-    font-size: 3.7em;
-    margin-left: 50px;
+    height: 78px;
+    width: 280px;
+    font-size: 1.5em;
+    margin-left: 35px;
+    margin-top: 5px;
   }
 
   #bouton_rechercher/*bouton version desktop*/ {
@@ -79,44 +77,46 @@
   }
 
   #bouton_rechercher2 /*travail sur l'icone rechercher*/ {
-    font-size: 3em;
+    font-size: 1.5em;
     background-color: #0065fc;
     color: white;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     border: none;
-    border-radius: 40px;
+    border-radius: 25px;
     margin-left: -20px;
   }
 
   #filtre {
     display: flex;
     flex-direction: column;
-    font-size: 3em;
+    font-size: 1.1em;
   }
 
   #filtre ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 950px;
-    height: 530px;
-    margin-left: -30px;
+    width: 440px;
+    height: 270px;
+    margin-left: -40px;
   }
 
   #filtre li /**bordure des filtre**/ {
-    height: 120px;
-    border-radius: 70px;
+    height: 60px;
+    border-radius: 50px;
   }
 
   .contouricone /**contour des icones FILTRE**/ {
-    width: 130px;
-    height: 130px;
+    width: 75px;
+    height: 75px;
     border-radius: 65px;
+    margin-top: 7px;
+    margin-left: 5px;
   }
 
   .placementF {
-    margin-top: -10px;
+    margin-top: -20px;
   }
 
   #filtre a {
@@ -124,60 +124,60 @@
   }
 
   #iconeEco {
-    margin-top: 35px;
+    margin-top: 30px;
     margin-left: 27px;
   }
 
   #iconeFamille {
-    margin-top: 33px;
-    margin-left: 45px;
+    margin-top: 30px;
+    margin-left: 33px;
   }
 
   #iconeRomantique {
-    margin-top: 40px;
-    margin-left: 37px;
+    margin-top: 33px;
+    margin-left: 30px;
   }
 
   #iconeAnimaux {
-    margin-top: 34px;
-    margin-left: 32px;
+    margin-top: 28px;
+    margin-left: 29px;
   }
 
   #eco,
   #romantique {
-    width: 500px;
+    width: 230px;
   }
 
   #animaux {
-    width: 680px;
+    width: 290px;
   }
 
   #famille {
     align-self: flex-end;
-    margin-top: -195px;
-    width: 380px;
+    margin-top: -100px;
+    width: 190px;
   }
 
-  #information /*paragraphe information en dessous des filtres*/ {
-    width: 1000px;
-    font-size: 2.8em;
+  #information {
+    width: 450px;
+    font-size: 1.1em;
   }
 
-  #information i /*icone info seul*/ {
-    font-size: 1em;
-    margin-top: 13px;
-    margin-left: 28px;
+  #info /**contour sphérique**/ {
+    position: relative;
+    border: rgb(217, 217, 217) solid 2px;
+    width: 35px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 15px;
   }
 
-  #information p {
-    margin-left: 10px;
-  }
-
-  #info /*icone info + contour */ {
-    width: 90px;
-    height: 70px;
-    border-radius: 40px;
-    margin-top: -60px;
+  #information i /**icone info**/ {
+    position: absolute;
+    color: #0065fc;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: 8px;
   }
 
   /*ARTICLE ET ASIDE HEBERGEMENT*/
@@ -187,133 +187,79 @@
     flex-direction: column-reverse;
   }
 
-  /*ASIDE POPULAIRE*/
+  /*ASIDE*/
 
-  #populaire {
+  #populaire /**background**/ {
     margin-left: 0px;
-    width: 1030px;
-    height: 1500px;
-  }
-
-  #titre_populaire {
-    font-size: 3em;
-    margin-left: -30px;
-    margin-top: -50px;
-  }
-
-  #titre_populaire i /**positionnement de l'icone**/ {
-    margin-top: 80px;
-  }
-
-  .img_populaire /**image rogner**/ {
-    width: 360px;
-    height: 350px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border: white 12px solid;
-  }
-
-  #img_soleil {
-    width: 520px;
-    margin-left: -60px;
-  }
-
-  #img_coeur {
-    width: 500px;
-    margin-left: -30px;
-  }
-
-  #img_bleu {
-    width: 450px;
-    margin-top: -250px;
-    margin-left: -10px;
-  }
-
-  aside img /**bordure des images**/ {
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-  }
-
-  aside figcaption /**travail sur la description de l'image**/ {
-    width: 500px;
-    height: 350px;
-    font-size: 2.5em;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-  }
-
-  .bloc_pop /**positionnement des blocs**/ {
-    height: 400px;
-    margin-left: 50px;
+    height: 650px;
   }
 
   /*HEBERGEMENT*/
 
   #hebergement /*background de la partie hebergement*/ {
-    width: 1030px;
-    height: 3700px;
+    width: 420px;
+    height: 1800px;
     background-color: white;
     margin-top: 10px;
   }
 
   #hebergement h2 {
-    font-size: 4.5em;
+    font-size: 1.6em;
   }
 
   #img_heberg /*placement des images dans le bloc*/ {
     flex-direction: column;
-    height: 3500px;
+    width: 0px;
+    height: 1750px;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 0px;
+    margin-left: -10px;
   }
 
   .img_logement /*image rogner*/ {
-    width: 855px;
-    height: 280px;
-    margin-left: 25px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border: white solid 12px;
+    width: 360px;
+    height: 138px;
+    margin-left: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
 
   #hebergement figcaption {
-    width: 859px;
-    height: 190px;
-    margin-left: 25px;
-    font-size: 2.5em;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
+    height: 90px;
+    margin-left: 0px;
+    font-size: 1.2em;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
   }
 
   #hebergement img /**dimensionnement du contenant de l'image**/ {
-    width: 880px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    width: 380px;
+    margin-left: 0px;
   }
 
   .img_haut /*placement des images dans leur contenant*/ {
-    margin-top: -200px;
+    margin-top: -65px;
   }
 
   #hotel_de_la_mer {
-    margin-top: -290px;
+    margin-top: -130px;
   }
 
   #le_panier {
-    margin-top: -100px;
+    margin-top: -30px;
   }
 
   #chez_amina {
-    margin-top: -530px;
+    margin-top: -230px;
   }
 
   #hebergement figure {
-    border-radius: 50px;
-    box-shadow: 15px 15px 15px #f2f2f2;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 10px #f2f2f2;
   }
 
   #hebergement p {
-    font-size: 3em;
+    font-size: 1.2em;
   }
 
   #populaire {
@@ -323,19 +269,21 @@
   /*ACTIVITE*/
 
   article h2 {
-    font-size: 4em;
+    font-size: 1.6em;
     margin-top: 20px;
+    margin-left: 25px;
   }
 
   #bloc_activite1 {
     width: 355px;
-    height: 1500px;
+    height: 750px;
     margin-left: 25px;
+    margin-top: -40px;
   }
 
   #bloc_activite2 {
     width: 355px;
-    height: 1500px;
+    height: 750px;
     margin-top: -25px;
     margin-left: 25px;
   }
@@ -346,80 +294,81 @@
   }
 
   #activite /*placement de la partie activite*/ {
-    margin-left: 35px;
+    margin-left: 0px;
     margin-top: 70px;
-    width: 900px;
+    width: 400px;
   }
 
   #activite figure {
-    width: 855px;
-    height: 450px;
-    border-radius: 50px;
+    width: 360px;
+    height: 200px;
+    border-radius: 30px;
   }
 
   #vieux_port > div {
-    height: 330px;
-    width: 855px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    height: 150px;
+    width: 360px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
 
   #img_vieuxport {
-    margin-top: -150px;
-    margin-left: -100px;
+    width: 380px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
 
   #vieux_port > figcaption {
-    font-size: 3em;
-    height: 120px;
+    font-size: 1.3em;
+    height: 50px;
     padding-left: 60px;
   }
 
   #pomegues > div {
-    height: 330px;
-    width: 855px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    height: 150px;
+    width: 360px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
 
   #img_pomegues {
-    width: 900px;
-    margin-top: -500px;
+    width: 400px;
+    margin-top: -220px;
   }
 
   #pomegues > figcaption {
-    font-size: 3em;
-    height: 120px;
+    font-size: 1.3em;
+    height: 50px;
     padding-left: 60px;
   }
 
   #frioul > div {
-    height: 330px;
-    width: 855px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    height: 150px;
+    width: 360px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
 
   #img_frioul {
-    width: 1000px;
+    width: 500px;
   }
 
   #frioul > figcaption {
-    font-size: 3em;
-    height: 120px;
+    font-size: 1.3em;
+    height: 50px;
     padding-left: 60px;
   }
 
   #calanques > div {
-    height: 330px;
-    width: 855px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    height: 150px;
+    width: 360px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
 
   #img_calanques {
-    width: 880px;
-    margin-top: -100px;
+    width: 380px;
+    margin-top: -50px;
     margin-left: 0px;
   }
 
@@ -428,58 +377,59 @@
   }
 
   #calanques > figcaption {
-    font-size: 3em;
-    height: 120px;
+    font-size: 1.3em;
+    height: 50px;
     padding-left: 60px;
   }
 
   #garde > div {
-    height: 330px;
-    width: 855px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    height: 150px;
+    width: 360px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
 
   #img_garde {
-    width: 1000px;
+    width: 600px;
   }
 
   #garde > figcaption {
-    font-size: 3em;
-    height: 120px;
+    font-size: 1.3em;
+    height: 50px;
     padding-left: 60px;
   }
 
   #longchamp > div {
-    height: 330px;
-    width: 855px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    height: 150px;
+    width: 360px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
 
   #img_longchamp {
-    width: 880px;
-    margin-top: -100px;
-    margin-left: -20px;
+    width: 380px;
+    margin-top: -50px;
+    margin-left: -10px;
   }
 
   #longchamp > figcaption {
-    font-size: 3em;
-    height: 120px;
+    font-size: 1.3em;
+    height: 50px;
     padding-left: 60px;
   }
 
   /*FOOTER VERSION MOBILE*/
 
   footer {
-    width: 980px;
-    height: 1100px;
+    width: 400px;
+    height: 630px;
     margin-left: 10px;
     margin-top: 0px;
-    font-size: 2.2em;
+    font-size: 1.2em;
   }
 
   footer > div {
     flex-direction: column;
+    width: 400px;
   }
 }
