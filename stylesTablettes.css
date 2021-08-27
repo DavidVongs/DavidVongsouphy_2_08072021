@@ -1,0 +1,337 @@
+@media all and (min-width: 600px) and (max-width: 1024px) {
+  #taille_global {
+    width: auto;
+  }
+
+  /*HEADER*/
+
+  header {
+    width: 900px;
+  }
+
+  #menu {
+    margin-left: 330px;
+    width: 500px;
+  }
+
+  #logo {
+    width: 150px;
+    margin-left: 20px;
+  }
+
+  #menu a {
+    font-size: 1.6em;
+  }
+
+  .Heb /*positionnement du lien Hebergement*/ {
+    position: absolute;
+    margin-left: 0px;
+  }
+
+  #lien2 /*positionnement du lien Activite*/ {
+    position: absolute;
+    margin-left: 210px;
+  }
+
+  #Ins /*positionnement du lien s'inscrire*/ {
+    position: absolute;
+    margin-left: 280px;
+  }
+
+  #titre {
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 1.3em;
+  }
+
+  #loca {
+    font-size: 1.8em;
+    margin-left: 30px;
+  }
+
+  #barre_de_recherche {
+    height: 80px;
+    width: 503px;
+    border-radius: 30px;
+    margin-top: 45px;
+    margin-left: 40px;
+  }
+
+  #rechercher {
+    height: 78px;
+    width: 280px;
+    font-size: 1.5em;
+    margin-left: 25px;
+  }
+
+  #bouton_rechercher {
+    height: 75px;
+    width: 140px;
+    font-size: 1.4em;
+  }
+
+  #filtre {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+  }
+
+  #filtre h2 {
+    font-size: 1.3em;
+    margin-top: 15px;
+    margin-left: 50px;
+  }
+
+  #filtre ul {
+    width: 940px;
+    margin-left: 0px;
+  }
+
+  #filtre li /**bordure des filtre**/ {
+    height: 40px;
+  }
+
+  .contouricone {
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+  }
+
+  #eco,
+  #romantique {
+    width: 200px;
+  }
+
+  #famille {
+    width: 150px;
+  }
+
+  #animaux {
+    width: 250px;
+  }
+
+  #iconeEco {
+    margin-top: 16px;
+    margin-left: 11px;
+  }
+
+  #iconeFamille {
+    margin-top: 15px;
+    margin-left: 19px;
+  }
+
+  #information /*paragraphe information en dessous des filtres*/ {
+    width: auto;
+    font-size: 1.3em;
+    margin-left: 50px;
+  }
+
+  /*ARTICLE ET ASIDE HEBERGEMENT*/
+
+  #hebergement_et_populaire {
+    flex-direction: column-reverse;
+    margin-left: -40px;
+  }
+
+  #populaire /**background**/ {
+    width: 990px;
+    height: 400px;
+  }
+
+  #titre_populaire {
+    margin-bottom: 0px;
+    font-size: 1.5em;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-between;
+  }
+
+  #populaire_3bloc {
+    display: flex;
+    margin-left: 40px;
+  }
+
+  .bloc_pop {
+    margin-left: 0px;
+    margin-bottom: 160px;
+  }
+
+  .img_populaire /**image rogner**/ {
+    width: 270px;
+    padding-bottom: 130px;
+    overflow: hidden;
+    border: white solid 6px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+  }
+
+  aside figure {
+    flex-direction: column;
+  }
+
+  aside figcaption /**travail sur la description de l'image**/ {
+    width: 262px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-size: 1em;
+    line-height: 1.5em;
+
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0px;
+  }
+
+  #img_soleil {
+    width: 270px;
+    margin-top: -20px;
+    margin-left: 0px;
+  }
+
+  #img_coeur {
+    width: 270px;
+    margin-top: -20px;
+    margin-left: 0px;
+  }
+
+  #img_bleu {
+    width: 270px;
+    margin-top: -150px;
+    margin-left: 0px;
+  }
+
+  .etoile_populaire /**placement des etoiles**/ {
+    margin-top: 0px;
+  }
+
+  #pomFrioul {
+    display: flex;
+  }
+
+  #gardeLomp {
+    display: flex;
+  }
+
+  #hebergement {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 990px;
+    height: 680px;
+  }
+
+  #bloc_hebergement /**bloc hebergement marseille**/ {
+    margin-left: 90px;
+  }
+
+  #hebergement h2 {
+    font-size: 2.3em;
+    margin-left: -40px;
+  }
+
+  #hebergement p {
+    font-size: 1.5em;
+    margin-left: -40px;
+  }
+
+  /*ACTIVITE*/
+
+  #bloc_activite_total {
+    flex-direction: column;
+  }
+
+  #activite h2 {
+    font-size: 2em;
+    margin-left: 50px;
+  }
+
+  /**ACTIVITE, Vieux port, Pomegues, Frioul**/
+
+  #vieux_port > div /*dimensionnement de l'image*/ {
+    height: 210px;
+  }
+
+  #img_vieuxport {
+    width: 350px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  #vieux_port {
+    margin-left: 40px;
+  }
+
+  #pomegues > div /*dimensionnement de l'image*/ {
+    height: 210px;
+  }
+
+  #frioul > div /*dimensionnement de l'image*/ {
+    height: 210px;
+  }
+
+  #frioul {
+    margin-top: 18px;
+    margin-left: -15px;
+  }
+
+  /**ACTIVITE, Calanques, Longchamp, Garde**/
+
+  #activite {
+    margin-left: -40px;
+  }
+
+  #calanques > div /*dimensionnement de l'image*/ {
+    height: 210px;
+  }
+
+  #img_calanques {
+    width: 350px;
+    margin-left: -0px;
+    margin-top: -0px;
+  }
+
+  #garde > div /*dimensionnement de l'image*/ {
+    width: 300px;
+    height: 210px;
+  }
+
+  #longchamp > div /*dimensionnement de l'image*/ {
+    width: 300px;
+    height: 210px;
+  }
+
+  #img_longchamp {
+    width: 400px;
+    margin-top: -20px;
+    margin-left: -35px;
+  }
+
+  #longchamp {
+    margin-top: 20px;
+    margin-left: -15px;
+  }
+
+  #bloc_activite2 {
+    margin-left: 40px;
+    margin-top: -200px;
+  }
+
+  /*FOOTER*/
+
+  footer > div {
+    position: absolute;
+    width: 900px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  footer /*background*/ {
+    width: 990px;
+    margin-left: 0px;
+    margin-top: -150px;
+  }
+}
