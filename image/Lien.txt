@@ -1,0 +1,59 @@
+
+LOGO
+
+lol-Reservia =
+https://zupimages.net/up/20/47/j11u.png
+
+HEBERGEMENT
+
+auberge-cannebiere-small = 
+https://zupimages.net/up/21/04/3cn4.jpg
+
+hotel-port-small =
+https://zupimages.net/up/21/04/vcu4.jpg
+
+hotel-mouettes-small =
+https://zupimages.net/up/21/04/5qey.jpg
+
+hotel-mer-small =
+https://zupimages.net/up/21/04/nzen.jpg
+
+auberge-panier-small =
+https://zupimages.net/up/21/04/7ifh.jpg
+
+chez-amina-small =
+https://zupimages.net/up/21/04/cl08.jpg
+
+HEBERGEMENT POPULAIRE
+
+hotel-soleil-small =
+https://zupimages.net/up/21/03/fuhv.jpg
+
+coeur-eau-small = 
+https://zupimages.net/up/21/03/1hkq.jpg
+
+hotel-bleu-blanc-small =
+https://zupimages.net/up/21/03/abtx.jpg
+
+
+ACTIVITE
+
+vieux-port-medium =
+https://zupimages.net/up/21/12/q0x2.jpg
+
+pomegues-small =
+https://zupimages.net/up/21/04/eovs.jpg
+
+frioul-small =
+https://zupimages.net/up/21/04/4cqf.jpg
+
+calanques-medium =
+https://zupimages.net/up/21/12/hqd3.jpg
+
+dame-garde-small =
+https://zupimages.net/up/21/04/6bf6.jpg
+
+longchamps-small =
+https://zupimages.net/up/21/04/c9zg.jpg
+
+
